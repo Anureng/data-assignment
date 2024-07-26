@@ -86,7 +86,7 @@ const Filter = () => {
                     <select
                         onChange={(e) => setSelectedTag(e.target.value)}
                         className='bg-[#1B3252] text-white w-full sm:w-36 p-2 rounded-md sm:rounded-lg cursor-pointer'>
-                        <option value=''>Filter by Tag</option>
+                        <option value=''>Filter by Type</option>
                         <option value="yoga">Yoga</option>
                         <option value="meditation">Meditation</option>
                         <option value="detox">Detox</option>
